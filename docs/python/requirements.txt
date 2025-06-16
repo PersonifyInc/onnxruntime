@@ -16,3 +16,4 @@ packaging
 protobuf
 sympy
 onnx
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
