@@ -1,3 +1,4 @@
 sklearn
 transformers==v4.4.2
 wget
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
