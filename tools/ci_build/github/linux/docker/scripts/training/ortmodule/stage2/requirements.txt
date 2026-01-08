@@ -8,3 +8,5 @@ wget
 pytorch-lightning==1.6.0
 deepspeed==0.3.15
 fairscale==0.4.6
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
